@@ -1,7 +1,7 @@
 import { ReactHTMLElement } from 'react'
 import styled from 'styled-components';
 
-export interface ButtonProps extends ReactHTMLElement<HTMLButtonElement> {
+export interface ButtonProps {
     label?: string
     variant: string
 }

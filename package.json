@@ -9,7 +9,9 @@
   "license": "ISC",
   "author": "jason2000-cpu",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +27,7 @@
     "styled-components": "^6.3.11"
   },
   "devDependencies": {
+    "@types/node": "^25.3.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@types/styled-components": "^5.1.36",
